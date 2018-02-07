@@ -21,9 +21,10 @@
 #define EPSILON 0.01f
 #endif
 
-
+#include "VECTOR2D.h"
 #include "VECTOR3D.h"
 #include "VECTOR4D.h"
 #include "MATRIX4X4.h"
+#include "PLANE.h"
 
 #include "COLOR.h"

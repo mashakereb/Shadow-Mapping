@@ -53,8 +53,7 @@ bool COLOR::operator  == (const COLOR & rhs) const
 		return false;
 	if(b != rhs.b)
 		return false;
-	if(a != rhs.a)
-		return false;
 
-	return true;
+    return a == rhs.a;
+
 }
